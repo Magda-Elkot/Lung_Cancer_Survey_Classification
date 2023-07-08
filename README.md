@@ -2,6 +2,7 @@
 
 # Dataset
   The code reads a CSV file named "survey lung cancer.csv".
+  
   Make sure to update the file path if your file is located elsewhere.
 
 # Data Preprocessing
@@ -11,14 +12,20 @@
       (SMOKING, YELLOW_FINGERS, ANXIETY, PEER_PRESSURE, CHRONIC DISEASE, 
       WHEEZING, ALLERGY, ALCOHOL CONSUMING, SHORTNESS OF BREATH, 
       SWALLOWING DIFFICULTY, CHEST PAIN, FATIGUE, COUGHING).
+      
     2. Map non-numeric values to numeric values for the GENDER and LUNG_CANCER columns.
     
 # Exploratory Data Analysis
   The code performs exploratory data analysis to gain insights into the dataset. 
+  
   It includes the following steps:
+  
     1. Display information about the dataset (df.info()).
+    
     2. Display the columns in the dataset (df.columns).
+    
     3. Check for missing values in the dataset (df.isnull().sum()).
+    
     4. Display basic statistics of the numerical columns in the dataset (df.describe()).
     5. Check for duplicated rows in the dataset (df.duplicated().sum()).
     6. Remove duplicated rows from the dataset (df = df.drop_duplicates()).
