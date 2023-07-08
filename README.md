@@ -19,13 +19,9 @@
   The code performs exploratory data analysis to gain insights into the dataset. 
   
   It includes the following steps:
-  
     1. Display information about the dataset (df.info()).
-    
     2. Display the columns in the dataset (df.columns).
-    
     3. Check for missing values in the dataset (df.isnull().sum()).
-    
     4. Display basic statistics of the numerical columns in the dataset (df.describe()).
     5. Check for duplicated rows in the dataset (df.duplicated().sum()).
     6. Remove duplicated rows from the dataset (df = df.drop_duplicates()).
@@ -45,6 +41,7 @@
     4. Decision Tree Classifier
     5. Gradient Boosting Classifier
     6. XGB Classifier
+    
   The following steps are performed for each model:
     1. Split the dataset into training and test datasets.
     2. Apply data balancing using Random Over-sampling to handle the imbalanced dataset.
